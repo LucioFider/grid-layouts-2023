@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import FancyGrid from "../components/grid01/FancyGrid";
+import GridCards from "../components/grid01/GridCards";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
         <div className="bg-[#1f2a3e] rounded-lg shadow-xl min-h-[100px]" />
       </main>
       <FancyGrid />
+      <GridCards />
     </div>
   );
 }
